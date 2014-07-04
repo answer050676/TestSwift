@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8013C1BB1966AF6400B04A94 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8013C1BA1966AF6400B04A94 /* DetailViewController.swift */; };
 		80D51260196693F700C5AFA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D5125F196693F700C5AFA6 /* AppDelegate.swift */; };
 		80D51262196693F700C5AFA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D51261196693F700C5AFA6 /* ViewController.swift */; };
 		80D51265196693F700C5AFA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80D51263196693F700C5AFA6 /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8013C1BA1966AF6400B04A94 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		80D5125A196693F700C5AFA6 /* TestSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80D5125E196693F700C5AFA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80D5125F196693F700C5AFA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				80D51263196693F700C5AFA6 /* Main.storyboard */,
 				80D51266196693F700C5AFA6 /* Images.xcassets */,
 				80D5125D196693F700C5AFA6 /* Supporting Files */,
+				8013C1BA1966AF6400B04A94 /* DetailViewController.swift */,
 			);
 			path = TestSwift;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8013C1BB1966AF6400B04A94 /* DetailViewController.swift in Sources */,
 				80D51262196693F700C5AFA6 /* ViewController.swift in Sources */,
 				80D51260196693F700C5AFA6 /* AppDelegate.swift in Sources */,
 			);
@@ -399,6 +403,7 @@
 				80D51278196693F700C5AFA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		80D51279196693F700C5AFA6 /* Build configuration list for PBXNativeTarget "TestSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -407,6 +412,7 @@
 				80D5127B196693F700C5AFA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
