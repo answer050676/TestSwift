@@ -24,7 +24,7 @@ class DetailViewController: UIViewController {
         if self.title == "UILabel"
         {
             //Label
-            var label = UILabel(frame: self.view.bounds)
+            let label = UILabel(frame: self.view.bounds)
             label.backgroundColor = UIColor.clearColor()
             label.textAlignment = NSTextAlignment.Center
             label.font = UIFont.systemFontOfSize(36)
